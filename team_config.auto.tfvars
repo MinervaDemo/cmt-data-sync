@@ -15,17 +15,32 @@ team_configs = {
       }
     }
   }
+  spec_cbi = {
+    secret_ready = true
+    user_dsid_list = []
+    tasks = {
+      lh_saptca = {
+        sourcepath = "/prd/internal/minerva_migration_cit/prd_internal_minerva_migration_cit.db/prd_internal_tca/"
+        targetpath = "/prd-lh1-spec-src/raw/cdp/prd/src/sap_tca/lh_cdp_sap_tca_raw_prd.db/"
+        taskenabled = true
+        include_paths = [
+          "/acdoca/"
+          "/rbkp/"
+        ]
+      }
+    }
+  }
   team_name = {
     secret_ready = true
     user_dsid_list = []
     tasks = {
       sourcesystem1 = {
-        sourcepath = "\"\""
-        targetpath = "\"\""
+        sourcepath = ""
+        targetpath = ""
         taskenabled = true
         include_paths = [
-          "\"/object1/\""
-          "\"/object2/\""
+          "/object1/"
+          "/object2/"
         ]
       }
     }
