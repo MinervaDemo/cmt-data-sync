@@ -26,6 +26,7 @@ team_configs = {
         targetpath = "/prd-lh1-spec-src/raw/cdp/prd/src/sap_tc2/lh_cdp_sap_tc2_raw_prd.db/"
         taskenabled = true
         include_paths = [
+          "/qals/"
           "/likp/"
           "/lips/"
         ]
