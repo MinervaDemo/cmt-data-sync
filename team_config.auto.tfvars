@@ -11,6 +11,8 @@ team_configs = {
           "/bkpd/"
           "/acdoca/"
           "/bseg/"
+          "/ceicarg/"
+          "/eket/"
         ]
       }
     }
@@ -25,6 +27,8 @@ team_configs = {
         taskenabled = true
         include_paths = [
           "/qals/"
+          "/likp/"
+          "/lips/"
         ]
       }
       lh_saptca = {
