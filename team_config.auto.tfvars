@@ -29,6 +29,7 @@ team_configs = {
           "/qals/"
           "/likp/"
           "/lips/"
+          "/mchbh/"
         ]
       }
       lh_saptca = {
@@ -38,6 +39,8 @@ team_configs = {
         include_paths = [
           "/acdoca/"
           "/rbkp/"
+          "/rseg/"
+          "/vbak/"
         ]
       }
     }
@@ -51,8 +54,8 @@ team_configs = {
         targetpath = ""
         taskenabled = true
         include_paths = [
-          "/object1/"
-          "/object2/"
+          "/object1/",
+          "/object2/",
         ]
       }
     }
