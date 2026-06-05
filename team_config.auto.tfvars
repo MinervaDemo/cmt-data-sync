@@ -13,6 +13,8 @@ team_configs = {
           "/bseg/"
           "/bkpf/"
           "/crhd/"
+          "/ceicarg/"
+          "/eket/"
         ]
       }
     }
@@ -21,6 +23,16 @@ team_configs = {
     secret_ready = true
     user_dsid_list = []
     tasks = {
+      lh_saptc2 = {
+        sourcepath = "/prd/internal/minerva_migration_cit/prd_internal_minerva_migration_cit.db/prd_internal_tc2/"
+        targetpath = "/prd-lh1-spec-src/raw/cdp/prd/src/sap_tc2/lh_cdp_sap_tc2_raw_prd.db/"
+        taskenabled = true
+        include_paths = [
+          "/qals/"
+          "/likp/"
+          "/lips/"
+        ]
+      }
       lh_saptca = {
         sourcepath = "/prd/internal/minerva_migration_cit/prd_internal_minerva_migration_cit.db/prd_internal_tca/"
         targetpath = "/prd-lh1-spec-src/raw/cdp/prd/src/sap_tca/lh_cdp_sap_tca_raw_prd.db/"
