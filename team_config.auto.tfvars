@@ -11,6 +11,8 @@ team_configs = {
           "/bkpd/"
           "/acdoca/"
           "/bseg/"
+          "/bkpf/"
+          "/crhd/"
           "/ceicarg/"
           "/eket/"
         ]
